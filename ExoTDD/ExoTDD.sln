@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExoTDD", "ExoTDD\ExoTDD.csproj", "{755FC349-6CD8-494B-9287-183C42BC9B7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo.Bibliotheque", "Exo.Bibliotheque\Exo.Bibliotheque.csproj", "{F738C063-4D19-48DF-9C06-FE04CB6AE7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibTester.Tests", "FibTester.Tests\FibTester.Tests.csproj", "{99481266-488F-4711-A04E-8D70089E2C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{755FC349-6CD8-494B-9287-183C42BC9B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{755FC349-6CD8-494B-9287-183C42BC9B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{755FC349-6CD8-494B-9287-183C42BC9B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{755FC349-6CD8-494B-9287-183C42BC9B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F738C063-4D19-48DF-9C06-FE04CB6AE7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F738C063-4D19-48DF-9C06-FE04CB6AE7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F738C063-4D19-48DF-9C06-FE04CB6AE7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F738C063-4D19-48DF-9C06-FE04CB6AE7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99481266-488F-4711-A04E-8D70089E2C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99481266-488F-4711-A04E-8D70089E2C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99481266-488F-4711-A04E-8D70089E2C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99481266-488F-4711-A04E-8D70089E2C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
