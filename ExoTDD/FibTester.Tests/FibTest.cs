@@ -44,7 +44,8 @@ namespace FibTester.Tests
         }
 
         //- Lors du déclanchement de la fonction GetFibSeries() avec un Range de 6 
-        //  - Le résultat contient le chiffre 3 
+
+        // 3) Le résultat contient le chiffre 3 
 
         [DataTestMethod]
         [DataRow(6)]
@@ -60,7 +61,7 @@ namespace FibTester.Tests
             CollectionAssert.Contains(result, 3);
         }
 
-        //  - Le résultat contient 6 éléments 
+        // 4) Le résultat contient 6 éléments 
         [DataTestMethod]
         [DataRow(6)]
         public void GetFibSeries_ShouldBe_Count_6(int r)
@@ -77,7 +78,7 @@ namespace FibTester.Tests
             CollectionAssert.AreEqual(new List<int> { 0, 1, 1, 2, 3, 5 }, result);
         }
 
-        //  - Le résultat n’a pas le chiffre 4 en son sein 
+        // 5) Le résultat n’a pas le chiffre 4 en son sein 
         [DataTestMethod]
         [DataRow(6)]
         public void GetFibSeries_ShouldBe_DoesNotContain_4(int r)
@@ -92,7 +93,7 @@ namespace FibTester.Tests
             CollectionAssert.DoesNotContain(result, 4);
         }
 
-        //  - Le résultat correspond à une liste qui contient {0, 1, 1, 2, 3, 5}
+        // 6) Le résultat correspond à une liste qui contient {0, 1, 1, 2, 3, 5}
         [DataTestMethod]
         [DataRow(6)]
         public void GetFibSeries_ShouldBe_EqualAt_ListOf_6(int r)
@@ -106,7 +107,7 @@ namespace FibTester.Tests
             CollectionAssert.AreEqual(new List<int> { 0, 1, 1, 2, 3, 5 }, result);
         }
 
-        //  - Le résultat est trié de façon ascendente
+        // 7) Le résultat est trié de façon ascendente
         public void GetFibSeries_ShouldBe_OrderedByAsc(int r)
         {
             //Arrange
